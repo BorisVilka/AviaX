@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/fragmentStart">
+
+    <fragment
+        android:id="@+id/fragmentStart"
+        android:name="com.aviax.game.FragmentStart"
+        android:label="FragmentStart" />
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.aviax.game.ScoreFragment"
+        android:label="ScoreFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.aviax.game.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.aviax.game.GameFragment"
+        android:label="GameFragment" />
+</navigation>
